@@ -88,7 +88,7 @@ export default function Navigation() {
 
         {isOpen && (
           <motion.div
-            className="md:hidden mt-4 pb-4"
+            className="md:hidden mt-4 pb-4 bg-dark/95 backdrop-blur-xl rounded-lg border border-primary/30"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
@@ -97,7 +97,7 @@ export default function Navigation() {
               <a
                 key={item.href}
                 href={item.href}
-                className="block py-2 text-white hover:text-primary transition-colors"
+                className="block py-3 px-4 text-white hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}

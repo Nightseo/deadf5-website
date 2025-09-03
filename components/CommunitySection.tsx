@@ -16,10 +16,10 @@ const communityLinks = [
   {
     platform: 'Telegram',
     icon: Send,
-    link: '#',
-    color: 'from-gray-600 to-gray-700',
-    description: 'Coming soon',
-    active: false
+    link: 'https://t.me/Deadf5coin',
+    color: 'from-blue-500 to-cyan-500',
+    description: 'Join the chat',
+    active: true
   },
   {
     platform: 'Discord',
